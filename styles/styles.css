@@ -1,0 +1,894 @@
+body {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+body header {
+  position: relative;
+  top: 1.4vh;
+  left: 1.4vh;
+  right: 1.4vh;
+}
+
+body header input {
+  display: none;
+}
+
+body header input:checked ~ .displayMenu {
+  display: none;
+}
+
+body header input:checked ~ .closeMenu {
+  display: inline;
+}
+
+body header .closeMenu {
+  display: none;
+}
+
+body header .navBar {
+  background-color: #0000EC;
+  height: 0em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+body header .navBar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  overflow: hidden;
+}
+
+body header .navBar ul li {
+  list-style-type: none;
+}
+
+body header .navBar ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+body header i {
+  position: relative;
+  left: calc(90% - 48px);
+}
+
+body header input:checked ~ .navBar {
+  height: 13.9em;
+}
+
+body .initial {
+  position: relative;
+  top: 2vh;
+  left: 1.4vh;
+  right: 1.4vh;
+  width: 95%;
+}
+
+body .initial h1 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+
+body .initial h1 .row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+body .initial h1 .row1 .word2 {
+  text-decoration: line-through;
+  display: inline;
+  position: relative;
+  right: -3%;
+}
+
+body .initial .paragIniMob {
+  display: inline;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400;
+  font-size: 14px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+body .initial .paragIniDesk {
+  display: none;
+  color: red;
+}
+
+body .initial .buttonContainer {
+  width: 100%;
+  height: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .initial .buttonContainer a {
+  background-color: #00F3BB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
+  height: 6vh;
+  text-decoration: none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+  font-size: 16px;
+  color: #060A24;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 22px;
+}
+
+body .initial .buttonContainer a:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#00F0B8), to(#0000FE));
+  background: linear-gradient(to right, #00F0B8, #0000FE);
+}
+
+body .episodes {
+  position: relative;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
+  background: linear-gradient(#0000FF, #0000A3);
+  height: 140vh;
+  top: 3vh;
+  left: 0;
+  right: 0;
+}
+
+body .episodes .mySVG1 {
+  height: 4vh;
+  width: 100%;
+}
+
+body .episodes .title {
+  position: relative;
+  left: 1.4vh;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+
+body .episodes .iframesList {
+  height: 110vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .episodes .iframesList .iframeSpotify {
+  width: 90%;
+  height: auto;
+}
+
+body .episodes .mySVG2 {
+  position: relative;
+  height: 13.5vh;
+  width: 300%;
+}
+
+body .story {
+  position: relative;
+}
+
+body .story .imgCellPhone {
+  width: 100%;
+  position: relative;
+  top: -5vh;
+}
+
+body .story .storyText {
+  position: relative;
+  top: -20vh;
+  height: 20vh;
+}
+
+body .story .storyTitle {
+  position: relative;
+  left: 1.4vh;
+  width: 100%;
+  top: 14vh;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+
+body .story .parag1, body .story .parag2 {
+  position: relative;
+  width: 90%;
+  height: 15vh;
+  top: 10vh;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400;
+  font-size: 14px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+body .guests {
+  position: relative;
+  top: 17vh;
+}
+
+body .guests .titleGuests {
+  position: relative;
+  left: 1.4vh;
+  width: 90%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+
+body .guests .image {
+  width: 100%;
+}
+
+body .mainTopics {
+  position: relative;
+  top: 14vh;
+}
+
+body .mainTopics .titleTopics {
+  position: relative;
+  left: 1.4vh;
+  width: 90%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+
+body .mainTopics .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .mainTopics .subtitles {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #060A24;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+body .novelties {
+  position: relative;
+  top: 14vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
+  background: linear-gradient(#0000FF, #0000A3);
+  height: 45vh;
+  left: 0;
+  right: 0;
+}
+
+body .novelties .mySVG3 {
+  height: 10vh;
+  width: 200%;
+}
+
+body .novelties .noveltiesTitle {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 42px;
+}
+
+body .novelties .buttonContainer {
+  width: 100%;
+  height: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .novelties .buttonContainer a {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+  font-size: 16px;
+  color: #060A24;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 22px;
+  background-color: #00F3BB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
+  height: 6vh;
+  text-decoration: none;
+}
+
+body footer {
+  position: relative;
+  height: 16vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 14vh;
+}
+
+body footer .branding {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 10vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 14px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+body footer .comNettworks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 10vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (min-width: 680px) {
+  body {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+  }
+  body header {
+    position: relative;
+    top: 1.4vh;
+    left: 1.4vh;
+    right: 1.4vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body header input, body header .displayMenu, body header .closeMenu {
+    display: none;
+  }
+  body header img {
+    position: relative;
+    left: 6.9%;
+    scale: 140%;
+  }
+  body header .navBar {
+    position: relative;
+    left: 50%;
+    background-color: white;
+    height: 4em;
+    width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body header .navBar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    overflow: hidden;
+    width: 100%;
+  }
+  body header .navBar ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    list-style-type: none;
+  }
+  body header .navBar ul li a {
+    color: #060A24;
+  }
+  body .initial {
+    position: relative;
+    top: 16vh;
+    left: 22vh;
+    right: 1.4vh;
+    width: 70%;
+  }
+  body .initial h1 {
+    font-weight: 400;
+    font-size: 64px;
+    color: #060A24;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  body .initial h1 .row2 {
+    position: relative;
+    left: 3%;
+  }
+  body .initial .paragIniMob {
+    display: none;
+  }
+  body .initial .paragIniDesk {
+    display: block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+    width: 71%;
+    position: relative;
+  }
+  body .initial .buttonContainer {
+    position: relative;
+    top: 3.5vh;
+    width: 25%;
+    height: 8vh;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  body .initial .buttonContainer a {
+    background-color: #00F3BB;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 90%;
+    height: 6vh;
+    text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+  }
+  body .initial .buttonContainer a:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#00F0B8), to(#0000FE));
+    background: linear-gradient(to right, #00F0B8, #0000FE);
+  }
+  body .episodes {
+    position: relative;
+    background: -webkit-gradient(linear, right top, left top, from(#0000FF), to(#0000A3));
+    background: linear-gradient(to left, #0000FF, #0000A3);
+    height: 110vh;
+    top: 20vh;
+    left: 0;
+    right: 0;
+  }
+  body .episodes .mySVG1 {
+    height: 120px;
+    width: 100%;
+  }
+  body .episodes .title {
+    position: relative;
+    left: 22vh;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 42px;
+  }
+  body .episodes .iframesList {
+    position: relative;
+    left: 10%;
+    height: 55vh;
+    width: 86.2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .episodes .iframesList .iframeSpotify {
+    width: 45%;
+    position: relative;
+  }
+  body .episodes .iframesList .spoty2, body .episodes .iframesList .spoty4 {
+    left: -5%;
+  }
+  body .episodes .iframesList .spoty3, body .episodes .iframesList .spoty4 {
+    top: 8%;
+  }
+  body .episodes .mySVG2 {
+    position: absolute;
+    height: 120px;
+    width: 100%;
+    bottom: 0;
+  }
+  body .story {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 50%;
+    left: 50%;
+  }
+  body .story .imgCellPhone {
+    width: 70%;
+    position: relative;
+    top: 5vh;
+    left: -80%;
+  }
+  body .story .storyText {
+    display: inline-block;
+    position: relative;
+    top: -60vh;
+    height: 50vh;
+  }
+  body .story .storyText .storyTitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+    left: 1.4vh;
+    width: 90%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 42px;
+  }
+  body .story .storyText .parag1, body .story .storyText .parag2 {
+    position: relative;
+    left: 1.4vh;
+    width: 80%;
+    height: 10vh;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  body .guests {
+    position: relative;
+    top: -31vh;
+  }
+  body .guests .titleGuests {
+    position: relative;
+    left: 13%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 42px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 36%;
+  }
+  body .guests .imagesBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body .guests .imagesBlock .image {
+    width: 33.3%;
+  }
+  body .mainTopics {
+    position: relative;
+    top: -30vh;
+  }
+  body .mainTopics .titleTopics {
+    position: relative;
+    left: 1.4vh;
+    left: 10%;
+    width: 90%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #0c2406;
+    letter-spacing: 0;
+    line-height: 42px;
+  }
+  body .mainTopics .itemsPlusTitles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    top: 2vh;
+  }
+  body .mainTopics .itemBlock {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .mainTopics .items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: auto;
+  }
+  body .mainTopics .subtitles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #0c2406;
+    letter-spacing: 0;
+    text-align: center;
+  }
+  body .novelties {
+    position: relative;
+    background: -webkit-gradient(linear, right top, left top, from(#0000FF), to(#0000A3));
+    background: linear-gradient(to left, #0000FF, #0000A3);
+    height: 52vh;
+    left: 0;
+    right: 0;
+    top: -25vh;
+  }
+  body .novelties .mySVG3 {
+    height: 120px;
+    width: 100%;
+  }
+  body .novelties .noveltiesTitle {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 42px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .novelties .buttonContainer {
+    width: 100%;
+    height: 5vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .novelties .buttonContainer a {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    font-size: 18px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+    background-color: #00F3BB;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 25%;
+    height: 6vh;
+    text-decoration: none;
+  }
+  body footer {
+    height: 12vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+    top: -25vh;
+  }
+  body footer .branding {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    color: #060A24;
+    top: 1.5vh;
+    left: 5%;
+  }
+  body footer .comNettworks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    top: 1.5vh;
+    right: 5%;
+    width: 30%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

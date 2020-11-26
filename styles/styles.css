@@ -170,20 +170,20 @@ body .episodes {
   position: relative;
   background: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
   background: linear-gradient(#0000FF, #0000A3);
-  height: 140vh;
+  height: 170vh;
   top: 3vh;
   left: 0;
   right: 0;
 }
 
 body .episodes .mySVG1 {
-  height: 4vh;
+  height: 5vh;
   width: 100%;
 }
 
 body .episodes .title {
   position: relative;
-  left: 1.4vh;
+  left: 10%;
   color: white;
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 400;
@@ -194,7 +194,7 @@ body .episodes .title {
 }
 
 body .episodes .iframesList {
-  height: 110vh;
+  height: 130vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -217,23 +217,24 @@ body .episodes .iframesList .iframeSpotify {
 
 body .episodes .mySVG2 {
   position: relative;
-  height: 13.5vh;
+  height: 20.9vh;
   width: 300%;
 }
 
 body .story {
   position: relative;
+  top: 10vh;
 }
 
 body .story .imgCellPhone {
   width: 100%;
   position: relative;
-  top: -5vh;
+  top: -25vh;
 }
 
 body .story .storyText {
   position: relative;
-  top: -20vh;
+  top: -30vh;
   height: 20vh;
 }
 
@@ -561,7 +562,7 @@ body footer .comNettworks {
     position: relative;
     background: -webkit-gradient(linear, right top, left top, from(#0000FF), to(#0000A3));
     background: linear-gradient(to left, #0000FF, #0000A3);
-    height: 110vh;
+    height: 130vh;
     top: 20vh;
     left: 0;
     right: 0;
@@ -617,6 +618,7 @@ body footer .comNettworks {
   }
   body .story {
     position: relative;
+    top: -8vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

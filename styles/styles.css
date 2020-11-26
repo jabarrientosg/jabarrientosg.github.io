@@ -93,22 +93,6 @@ body .initial h1 {
   line-height: 42px;
 }
 
-body .initial h1 .row1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-
-body .initial h1 .row1 .word2 {
-  text-decoration: line-through;
-  display: inline;
-  position: relative;
-  right: -3%;
-}
-
 body .initial .paragIniMob {
   display: inline;
   font-family: 'IBM Plex Mono', monospace;
@@ -504,10 +488,6 @@ body footer .comNettworks {
     display: flex;
     padding: 0;
     margin: 0;
-  }
-  body .initial h1 .row2 {
-    position: relative;
-    left: 3%;
   }
   body .initial .paragIniMob {
     display: none;

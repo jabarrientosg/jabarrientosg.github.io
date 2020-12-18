@@ -199,6 +199,13 @@ body .episodes .iframesList .iframeSpotify {
   height: auto;
 }
 
+body .episodes .iframesList .iframeSpotify iframe {
+  width: 100%;
+  height: 232px;
+  border: 0;
+  background-color: transparent;
+}
+
 body .episodes .mySVG2 {
   position: relative;
   height: 20.9vh;
